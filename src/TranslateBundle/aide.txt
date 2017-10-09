@@ -1,0 +1,8 @@
+modifier dans config 
+# app/config/config.yml
+framework:
+    translator: { fallbacks: [en] }
+creation des pages yml contenant les mots a translater dans un nouveau dossier(translations) .
+
+ taper php bin/console debug:translation en TranslateBundle
+
